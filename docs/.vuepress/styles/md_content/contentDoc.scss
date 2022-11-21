@@ -1,0 +1,43 @@
+/*
+md的内容目录
+*/
+#toc {
+  color: #2c93d4;
+  //min-width: 20rem;
+  //max-width: 23rem;
+}
+
+html[data-theme="dark"] #toc {
+  background-color: rgba(50, 50, 50, 0.67);
+}
+
+html[data-theme="dark"] #toc .toc-wrapper::before {
+  content: " ";
+  width: 2px;
+  z-index: 1;
+  background-color: var(--border-color);
+}
+
+html[data-theme="dark"] #toc .toc-list .toc-item a {
+  color: #8b8d8c;
+}
+
+html[data-theme="dark"] #toc .toc-list .toc-item.active a {
+  color: #2c93d4;
+}
+
+#toc .toc-link.level2 {
+  padding-left: 1px;
+  font-size: 13px;
+}
+
+#toc .toc-link.level3 {
+  padding-left: 13px;
+  font-size: 13px;
+}
+
+#toc .toc-link.level4 {
+  padding-left: 26px;
+  font-size: 13px;
+}
+

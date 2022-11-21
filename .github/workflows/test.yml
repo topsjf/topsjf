@@ -1,0 +1,54 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+ 
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test-demos:
+    name: Test demos using ${{ matrix.bundler }} on node ${{ matrix.node }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node:
+          - "14"
+          - "16"
+          - "18"
+        bundler:
+          - vite
+         # - webpack
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+          run_install: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: pnpm
+
+      - name: Build project
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: pnpm run build:vite
+
+      # test with specific node version
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: ${{ matrix.bundler }} build test
+        run: |
+          pnpm run -r build:${{ matrix.bundler }}

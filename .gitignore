@@ -1,0 +1,13 @@
+.idea/
+.git/
+node_modules
+!package-lock.json
+!pnpm-lock.yaml
+.DS_Store
+.vscode/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+docs/.vuepress/dist/
+**.jar
+**.log
+logs

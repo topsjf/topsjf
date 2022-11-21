@@ -1,0 +1,68 @@
+/*
+代码高亮
+*/
+//内容块引用
+blockquote {
+  border-radius: 7px;
+  border-left-width: 4px;
+  background: rgba(178, 193, 220, 0.13);
+  border-color: #00fe00;
+  color: rgba(111, 111, 111, 0.5);
+}
+
+html[data-theme="dark"] blockquote {
+  border-left-width: 4px;
+  border-radius: 5px;
+  background: #3b3d3d;
+  border-color: #418a41;
+  color: #868686;
+}
+
+//斜体字体
+blockquote em {
+  color: rgba(245, 135, 135, 0.78);
+}
+
+//加粗字体
+blockquote strong {
+  color: rgba(57, 166, 235, 0.68);
+}
+
+//代码块
+div[class*="language-"] {
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+html[data-theme="dark"] div[class*="language-"] {
+  position: relative;
+  border-radius: 10px;
+  background: rgb(50, 50, 50);
+  transition: background-color var(--color-transition);
+}
+
+//方法
+div[class*="language-"] .token.function {
+  color: #130bff;
+}
+
+html[data-theme="dark"] div[class*="language-"] .token.function {
+  color: #fde415;
+}
+
+//括号
+div[class*="language-"] .token.punctuation {
+  color: #da07ff;
+}
+
+// ""
+div[class*="language-"] .token.string, {
+  color: #3bbf20;
+}
+
+//注释、、
+div[class*="language-"] .token.comment, div[class*="language-"] .token.prolog, div[class*="language-"] .token.cdata {
+  color: #408e31;
+  font-style: italic;
+}
+

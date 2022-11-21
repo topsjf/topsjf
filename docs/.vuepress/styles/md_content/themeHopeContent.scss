@@ -1,0 +1,59 @@
+/*
+md内容体
+*/
+//斜体字体
+.theme-hope-content em {
+  color: rgb(216, 14, 248);
+}
+
+//加粗字体
+.theme-hope-content strong {
+  color: rgba(3, 157, 251, 0.85);
+}
+
+// 1. 标识
+.theme-hope-content ol li::marker {
+  color: rgb(33, 230, 193);
+}
+
+// - 标识
+.theme-hope-content ul li::marker {
+  color: rgb(15, 60, 237);
+}
+
+.theme-hope-content code {
+  color: #0abe54;
+  background: rgba(178, 193, 220, 0.22);
+}
+
+/*代码隐藏*/
+.theme-hope-content .custom-container.details {
+  background: rgba(178, 193, 220, 0.13);
+}
+
+.theme-hope-content h1,
+.theme-hope-content h2,
+.theme-hope-content h3,
+.theme-hope-content h4,
+.theme-hope-content h5 {
+  font-size: 24px;
+}
+
+.theme-hope-content h1 {
+  color: #e20ea2;
+}
+
+.theme-hope-content h2 {
+  color: #03b203;
+}
+
+.theme-hope-content h3 {
+  color: #228B22;
+}
+
+.theme-hope-content h4 {
+  color: #9ACD32;
+}
+.theme-hope-content h5 {
+  color: #a4880b;
+}

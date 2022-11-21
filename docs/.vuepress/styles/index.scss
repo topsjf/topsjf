@@ -1,0 +1,8 @@
+/**
+添加新样式或覆盖样式
+ */
+
+// md 内容体
+@import "./md_content/index.scss";
+//全局 web 样式（非内容体）
+@import "./custom/index.scss";

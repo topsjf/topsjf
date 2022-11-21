@@ -1,0 +1,33 @@
+/*
+表格
+*/
+html[data-theme="light"] .theme-hope-content table th {
+  background-color: #dfdfdf;
+}
+
+html[data-theme="light"] .theme-hope-content table td {
+  background-color: #f7f7f7;
+}
+
+html[data-theme="dark"] .theme-hope-content table tr {
+  background-color: #275842;
+}
+
+html[data-theme="dark"] .theme-hope-content table td {
+  background-color: #525252;
+}
+
+html[data-theme="light"] .theme-hope-content table em {
+  color: rgb(216, 14, 248);
+}
+
+html[data-theme="light"] .theme-hope-content table strong {
+  color: rgba(3, 157, 251, 0.85);
+}
+html[data-theme="dark"] .theme-hope-content table em {
+  color: rgb(216, 14, 248);
+}
+
+html[data-theme="dark"] .theme-hope-content table strong {
+  color: rgba(3, 157, 251, 0.85);
+}

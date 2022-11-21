@@ -1,0 +1,35 @@
+/*
+md标题区域
+*/
+// html[data-theme="dark"]
+.page-info .author-info a {
+  color: #1d8be3;
+}
+
+//分类
+.page-info .categories-wrapper .category {
+  font-size: 15px;
+  color: #3381c0;
+}
+
+//标签
+.page-info .tags-wrapper .tag {
+  font-size: 15px;
+  line-height: 2;
+  padding: 0 2px;
+  color: rgba(216, 14, 248, 0.81);
+}
+
+//时间
+.page-info .date-info span {
+  color: #3ab223;
+}
+
+//统计
+.page-info .words-info span {
+  color: #e200ff;
+}
+//阅读时间信息
+.page-info .reading-time-info span {
+  color: #d4c278;
+}
