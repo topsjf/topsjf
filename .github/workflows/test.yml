@@ -4,7 +4,11 @@ on:
   push:
     branches:
       - main
- 
+    paths-ignore:
+      - img/**
+      - docs/.vuepress/**/**.tsp
+      - README.md
+      - LICENSE
   pull_request:
     branches:
       - main
