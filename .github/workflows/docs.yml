@@ -10,7 +10,6 @@ on:
       - img/**
       - docs/.vuepress/**/**.tsp
       - README.md
-      - CHANGELOG.md
       - LICENSE
 
 jobs:
