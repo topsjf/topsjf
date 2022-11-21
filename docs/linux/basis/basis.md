@@ -208,51 +208,51 @@ Linux内核采用虚拟文件系统（Virtual File System，VFS）作为和每�
 
 @include(./cd.md{5-})
 
-@include(./ls.md)
+@include(./ls.md{5-})
 
-@include(./ln.md)
+@include(./ln.md{5-})
 
-@include(./mkdir.md)
+@include(./mkdir.md{5-})
 
-@include(./pwd.md)
+@include(./pwd.md{5-})
 
-@include(./cp.md)
+@include(./cp.md{5-})
 
-@include(./mv.md)
+@include(./mv.md{5-})
 
-@include(./rmdir.md)
+@include(./rmdir.md{5-})
 
-@include(./rm.md)
+@include(./rm.md{5-})
 
-@include(./touch.md)
+@include(./touch.md{5-})
 
-@include(./echo.md)
+@include(./echo.md{5-})
 
-@include(./tee.md)
+@include(./tee.md{5-})
 
-@include(./cat.md)
+@include(./cat.md{5-})
 
-@include(./more.md)
+@include(./more.md{5-})
 
-@include(./less.md)
+@include(./less.md{5-})
 
-@include(./find.md)
+@include(./find.md{5-})
 
-@include(./head.md)
+@include(./head.md{5-})
 
-@include(./tail.md)
+@include(./tail.md{5-})
 
-@include(./file.md)
+@include(./file.md{5-})
 
-@include(./which.md)
+@include(./which.md{5-})
 
-@include(./whereis.md)
+@include(./whereis.md{5-})
 
-@include(./read.md)
+@include(./read.md{5-})
 
-@include(./awk.md)
+@include(./awk.md{5-})
 
-@include(./sort.md)
+@include(./sort.md{5-})
 
 
 ## 符号含义
@@ -283,28 +283,28 @@ Linux内核采用虚拟文件系统（Virtual File System，VFS）作为和每�
 
 ## 编辑器
 
-@include(./vim.md)
+@include(./vim.md{5-})
 
-@include(./nano.md)
+@include(./nano.md{5-})
 
-@include(./emacs.md)
+@include(./emacs.md{5-})
 
-@include(./kde.md)
+@include(./kde.md{5-})
 
-@include(./gnome.md)
+@include(./gnome.md{5-})
 
 
 ## 用户及权限管理
 
-@include(./chown.md)
+@include(./chown.md{5-})
 
-@include(./chmod.md)
+@include(./chmod.md{5-})
 
-@include(./usermod.md)
+@include(./usermod.md{5-})
 
-@include(./umask.md)
+@include(./umask.md{5-})
 
-@include(./chgrp.md)
+@include(./chgrp.md{5-})
 
 
 
@@ -361,11 +361,11 @@ newgrp 	renice 	su 	skill
 w 	id 	groupadd 	free 
 ```
 
-@include(./ps.md)
+@include(./ps.md{5-})
 
-@include(./top.md)
+@include(./top.md{5-})
 
-@include(./kill.md)
+@include(./kill.md{5-})
 
 
 
@@ -663,18 +663,22 @@ gpasswd
 | gzexe   |      |                                  |
 | tar     | .tar |                                  |
 
-@include(./tar.md)
+@include(./tar.md{5-})
 
 
 
 ## 磁盘管理
 
-df 
 dirs 
+
 edquota 
+
 eject 
+
 mcd 
+
 mdeltree
+
 mdu 
 
 mlabel 
@@ -684,16 +688,25 @@ mmd
 mrd 
 
 mzip 
+
 quota
-mmount 
+
 rmt
+
 stat 
+
 tree 
+
 umount 
+
 quotacheck 
+
 quotaoff 
+
 lndir 
+
 repquota
+
 quotaon
 
 
@@ -701,48 +714,76 @@ quotaon
 - **du**（英文全称：disk used）：检查磁盘空间使用量
 - **fdisk**：用于磁盘分区
 
-@include(./df.md)
+@include(./df.md{5-})
 
-@include(./du.md)
+@include(./du.md{5-})
 
-@include(./fdisk.md)
+@include(./fdisk.md{5-})
 
-@include(./mkfs.md)
+@include(./mkfs.md{5-})
 
-@include(./fsck.md)
+@include(./fsck.md{5-})
 
-@include(./mount.md)
+@include(./mount.md{5-})
 
 ## 磁盘维护
 
 badblocks 
+
 cfdisk 
+
 dd 
+
 e2fsck
+
 ext2ed 
+
 fsck 
+
 fsck.minix 
+
 fsconf
+
 fdformat 
+
 hdparm 
+
 mformat 
+
 mkbootdisk
+
 mkdosfs 
+
 mke2fs 
+
 mkfs.ext2 
+
 mkfs.msdos
+
 mkinitrd 
+
 mkisofs 
+
 mkswap 
+
 mpartition
+
 swapon 
+
 symlinks 
+
 sync 
+
 mbadblocks
+
 mkfs.minix 
+
 fsck.ext2 
+
 fdisk 	
+
 losetup	
+
 mkfs 	
 
 sfdisk 	
