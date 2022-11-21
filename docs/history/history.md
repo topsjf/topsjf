@@ -6,5 +6,5 @@ icon: time
 
 <!-- more -->
 
-@include(../../CHANGELOG.md{5-})
+@include(../../CHANGELOG.md{4-})
 
