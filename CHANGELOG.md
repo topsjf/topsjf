@@ -2,6 +2,20 @@
 
 项目所有变更登记
 
+## [2.3.2]() (2022-11-22)
+
+更新版本
+- vuepress-theme-hope: `2.0.0-beta.126`
+- 注释掉一些不用的css样式
+- 添加 stackblitz 在线编辑器配置文件
+- 更新docker基础知识
+
+## [2.3.1]() (2022-11-21)
+
+更新版本
+- vuepress-theme-hope: `2.0.0-beta.125`
+
+
 ## [2.3.0]() (2022-11-20)
 
 - 使用搜索引擎客户端 vuepress-plugin-search-pro: `2.0.0-beta.124`

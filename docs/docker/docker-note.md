@@ -646,35 +646,52 @@ docker run -it -v  /宿主机目录:/容器目录:ro 镜像名
 
 ### 常用指令:
 
-> - **FROM**  #定制的镜像都是基于 FROM 的镜像[nginx\centos...]
-> - **RUN** ["可执行文件", "参数1", "参数2"] #构建镜像时需要运行的[Linux、自定义]命令（可以写多条，建议使用 **&&** 连接符）；是在 docker build 时运行。
->   - RUN ["./test.jar", "dev", "offline"] 等价于RUN ./test.jar dev offline
->   - RUN yum -y install wget
->   - RUN tar -zxvf redis.tar.gz
->   - 简化，使用&&连接：RUN yum -y install wget \ && RUN tar -zxvf redis.tar.gz
-> - **CMD** #指定容器启动时要运行的命令，假如有多个CMD，最后一个生效；用于运行程序，在 docker run 时运行。CMD <shell 命令> ；
->   - CMD ["\<可执行文件或命令\>","\<param1>","\<param2>",...] 
->   - CMD ["\<param1>","\<param2>",...]  # 该写法是为 ENTRYPOINT 指令指定的程序提供默认参数
->   - CMD ["\<可执行文件或命令>","\<param1>","\<param2>",...] 
->   - CMD ["\<param1>","\<param2>",...]  # 该写法是为 ENTRYPOINT 指令指定的程序提供默认参数
-> - **MAINTAINER** xxx #声明镜像维护者信息
-> - **LABEL** name="xxx" \ build-date="20201212" #镜像描述元信息（可以写多条）
-> - **WORKDIR** /root/xx #设置终端默认登录进来的工作目录
-> - **EXPOSE** 8088 #当前容器对外暴露出的端口
-> - **ADD** 文件 容器内部目录  #将宿主机的文件复制到容器内，如果是一个压缩文件，将会在复制后**自动解压**
-> - **COPY** ["源文件" "容器内部路径"] #和ADD相似，但是如果有压缩文件是**不能解压**
->   - COPY home.txt /mydir/ #路径不存在的话，会自动创建。
-> - **VOLUME** #创建一个可以从本地主机或其他容器挂载的挂载点，一般用来存放数据库和需要保持的数据等
-> - **ENV** \<key>=< value>：为容器设置 Linux 环境变量 ，定义了环境变量，那么在后续的指令中，就可以使用这个环境变量。
->   - ENV JAVA_HOME /home/jdk1.8.0_151
->   - ENV CLASSPATH \$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-> - **ARG** \<key>=< value>： 设置环境变量，环境变量只作用于Dockerfile内。
-> - **ENTRYPOINT** #指定容器启动时要运行的命令 
->   - ENTRYPOINT ["\<executeable>","\<param1>","\<param2>",...]
->   - ENTRYPOINT nginx -g "daemon off;"
->   - **USER** 用于指定执行后续命令的用户和用户组 USER 用户名:用户组
->   - USER kong:k
-> - **ONBUILD**  #当构建一个被继承的Dockerfile时运行的命令，父镜像在被子镜像继承后父镜像的onbuild被触发。可以把ONBUID理解为一个触发器。
+- **FROM**  #定制的镜像都是基于 FROM 的镜像[`nginx，centos...`]
+- **RUN** ["可执行文件", "参数1", "参数2"] #构建镜像时需要运行的[Linux、自定义]命令（可以写多条，建议使用 **&&** 连接符）；是在 docker build 时运行。
+```shell
+RUN ["./test.jar", "dev", "offline"] 等价于RUN ./test.jar dev offline
+   
+RUN yum -y install wget
+   
+RUN tar -zxvf redis.tar.gz
+   
+简化，使用&&连接：RUN yum -y install wget \ && RUN tar -zxvf redis.tar.gz
+```
+- **CMD** #指定容器启动时要运行的命令，假如有多个CMD，最后一个生效；用于运行程序，在 docker run 时运行。CMD <shell 命令> ；
+```shell
+CMD ["\<可执行文件或命令\>","\<param1>","\<param2>",...] 
+
+CMD ["\<param1>","\<param2>",...]  # 该写法是为 ENTRYPOINT 指令指定的程序提供默认参数
+
+CMD ["\<可执行文件或命令>","\<param1>","\<param2>",...] 
+
+CMD ["\<param1>","\<param2>",...]  # 该写法是为 ENTRYPOINT 指令指定的程序提供默认参数
+
+```
+- **MAINTAINER** xxx #声明镜像维护者信息
+- **LABEL** name="xxx" \ build-date="20201212" #镜像描述元信息（可以写多条）
+- **WORKDIR** /root/xx #设置终端默认登录进来的工作目录
+- **EXPOSE** 8088 #当前容器对外暴露出的端口
+- **ADD** 文件 容器内部目录  #将宿主机的文件复制到容器内，如果是一个压缩文件，将会在复制后**自动解压**
+- **COPY** ["源文件" "容器内部路径"] #和ADD相似，但是如果有压缩文件是**不能解压**
+```shell
+COPY home.txt /mydir/ #路径不存在的话，会自动创建。
+```
+- **VOLUME** #创建一个可以从本地主机或其他容器挂载的挂载点，一般用来存放数据库和需要保持的数据等
+- **ENV** \<key>=< value>：为容器设置 Linux 环境变量 ，定义了环境变量，那么在后续的指令中，就可以使用这个环境变量。
+```shell
+ENV JAVA_HOME /home/jdk1.8.0_151
+ENV CLASSPATH \$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+```
+- **ARG** \<key>=< value>： 设置环境变量，环境变量只作用于Dockerfile内。
+- **ENTRYPOINT** #指定容器启动时要运行的命令
+```shell
+ENTRYPOINT ["\<executeable>","\<param1>","\<param2>",...]
+ENTRYPOINT nginx -g "daemon off;"
+```
+- **USER** 用于指定执行后续命令的用户和用户组 USER 用户名:用户组
+   - USER kong:k
+- **ONBUILD**  #当构建一个被继承的Dockerfile时运行的命令，父镜像在被子镜像继承后父镜像的onbuild被触发。可以把ONBUID理解为一个触发器。
 
 ### DockerFile 示例:
 

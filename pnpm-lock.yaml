@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vuepress/client': 2.0.0-beta.53
-  markdownlint-cli: 0.32.2
+  markdownlint-cli: ^0.32.2
   vue: ^3.2.45
   vuepress: 2.0.0-beta.53
   vuepress-plugin-search-pro: 2.0.0-beta.126
@@ -6526,6 +6526,8 @@ packages:
       vuepress-vite: 2.0.0-beta.53
       vuepress-webpack: 2.0.0-beta.53
     peerDependenciesMeta:
+      sass-loader:
+        optional: true
       vuepress:
         optional: true
       vuepress-vite:
@@ -6557,6 +6559,8 @@ packages:
       vuepress-vite: 2.0.0-beta.53
       vuepress-webpack: 2.0.0-beta.53
     peerDependenciesMeta:
+      sass-loader:
+        optional: true
       vuepress:
         optional: true
       vuepress-vite:
@@ -6710,6 +6714,8 @@ packages:
       vuepress-vite: 2.0.0-beta.53
       vuepress-webpack: 2.0.0-beta.53
     peerDependenciesMeta:
+      sass-loader:
+        optional: true
       vuepress:
         optional: true
       vuepress-vite:
@@ -6795,6 +6801,8 @@ packages:
       vuepress-vite: 2.0.0-beta.53
       vuepress-webpack: 2.0.0-beta.53
     peerDependenciesMeta:
+      sass-loader:
+        optional: true
       vuepress:
         optional: true
       vuepress-vite:
@@ -6823,6 +6831,8 @@ packages:
       vuepress-vite: 2.0.0-beta.53
       vuepress-webpack: 2.0.0-beta.53
     peerDependenciesMeta:
+      sass-loader:
+        optional: true
       vuepress:
         optional: true
       vuepress-vite:
