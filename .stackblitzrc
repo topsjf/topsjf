@@ -1,4 +1,4 @@
 {
   "installDependencies": false,
-  "startCommand": "pnpm install"
+  "startCommand": "npm -v && npm config set registry https://registry.npm.taobao.org && pnpm install"
 }
