@@ -1,6 +1,10 @@
 ---
 icon: /icons/k8s/k8s_16x16.png
 title: kubernetes知识积累
+#是否是文章
+article: false
+#是否显示在时间线
+timeline: false
 ---
 
 

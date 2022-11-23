@@ -1,6 +1,10 @@
 ---
 title: 架构专区
 category: 架构
+#是否是文章
+article: false
+#是否显示在时间线
+timeline: false
 ---
 
 # 升级专区

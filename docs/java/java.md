@@ -1,6 +1,10 @@
 ---
 icon: edit
 title: Java 笔记
+#是否是文章
+article: false
+#是否显示在时间线
+timeline: false
 ---
 
 ## Java笔记
