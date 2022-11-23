@@ -1197,6 +1197,58 @@ spring是一个**IOC**和**AOP**的容器框架。
 3) 基于切面和惯例进行声明式编程
 4) 通过切面和模板减少样板式代码
 
+## Spring AOP的几种通知类型？
+
+- **前置通知** 切入点方法执行之前执行 **@Before**
+- **返回通知** 切入点方法执行成功之后执行 **@AfterReturning**
+- **环绕通知** 切入点前后都执行 **@Around**
+- **异常通知** 切入点方法执行异常后执行方法 **@AfterThrow**
+- **后置通知** 切入点方法执行之后执行，不管是否成功 **@After**
+
+## 获取方法的返回值可以用哪几种通知？
+
+AfterReturning
+```java
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.METHOD})
+public @interface AfterReturning {
+    String value() default "";
+
+    String pointcut() default "";
+
+    String returning() default "";
+
+    String argNames() default "";
+}
+
+```
+```java
+@Configuration
+@Aspect
+public class UserInfoAspect {
+
+    @Pointcut("execution(* com.*.test(*))")
+    public void test() {}
+    
+    //在事件通知类型中申明returning即可获取返回值
+    @AfterReturning(value = "test()", returning="returnValue")
+    public void logMethodCall(JoinPoint jp, Object returnValue) throws Throwable {
+
+        System.out.println("进入后置增强了！");
+        String name = jp.getSignature().getName();
+        System.out.println(name);
+
+        Object[] args = jp.getArgs();
+        for (Object arg : args) {
+            System.out.println("参数：" + arg);
+        }
+
+        System.out.println("方法返回值为：" + returnValue);
+
+    }
+}
+```
+
 ## 说说你对Aop的理解？
 
 AOP全称叫做 Aspect Oriented Programming 面向切面编程。它是为解耦而生的，解耦是程序员编码开发过程中一直追求的境界，AOP在业务类的隔离上，绝对是做到了解耦，在这里面有几个核心的概念：
