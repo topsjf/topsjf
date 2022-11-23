@@ -2,6 +2,12 @@
 
 项目所有变更登记
 
+## [2.3.2.1]() (2022-11-23)
+
+- 更新文档，删除lidecode文件，是否文章，是否显示时间线（[cb1cae0](https://github.com/topsjf/topsjf/commit/cb1cae0fbb8d96517ddede4069c699ff53e95656)，[3e40bd7](https://github.com/topsjf/topsjf/commit/3e40bd7cac8ab9be7938321a43524573b4526207)）
+- 添加spring AOP面试题（[6cef657](https://github.com/topsjf/topsjf/commit/6cef657b353c4cdd8e85c819a20db59a03593b9e)）
+
+
 ## [2.3.2]() (2022-11-22)
 
 更新版本
@@ -9,6 +15,7 @@
 - 注释掉一些不用的css样式
 - 添加 stackblitz 在线编辑器配置文件
 - 更新docker基础知识
+
 
 ## [2.3.1]() (2022-11-21)
 
@@ -28,7 +35,6 @@
 ## [2.2.6]() (2022-11-12)
 
 - 更新主题版本
-
 - 依赖版本为
 - - vue: `3.2.44`
 - - vuepress: `2.0.0-beta.53`
@@ -43,7 +49,6 @@
 - - vue: `3.2.41`
 - - vuepress: `2.0.0-beta.49`
 - - vuepress-theme-hope: `2.0.0-beta.91`
-
 - dev 依赖版本暂为new
 
 
