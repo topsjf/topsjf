@@ -2,7 +2,7 @@
 title: 网站历史 
 category: 关于网站
 icon: time
-date: 2019-5-12
+date: 2019-05-12
 ---
 
 <!-- more -->

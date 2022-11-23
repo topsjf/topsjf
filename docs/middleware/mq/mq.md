@@ -1,7 +1,7 @@
 ---
 icon: edit
 title: MQ中间件
-date: 2019-5-12
+date: 2019-05-12
 #是否是文章
 article: false
 #是否显示在时间线

@@ -2,7 +2,7 @@
 icon: edit
 title: 开源项目精选
 category: 开源项目
-date: 2019-5-12
+date: 2019-05-12
 ---
 
 精选 Github 和 Gitee 上优质的 Java 开源项目。
