@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.0.1](https://github.com/topsjf/topsjf/compare/v3.0.0...v3.0.1) (2022-11-24)
+
+
+### ⏪️Reverts
+
+* 回退到2.4.17 ([70b46ca](https://github.com/topsjf/topsjf/commit/70b46cabb7086e7e3738ebdd42e01f33b91074b3))
+
+
+### 🐛Bug Fixes
+
+* 修复release工作流 ([61983bf](https://github.com/topsjf/topsjf/commit/61983bf3fd4d15dc655b8f734927ea828d1669d2))
+
 ## [3.0.0](https://github.com/topsjf/topsjf/compare/v2.4.17...v3.0.0) (2022-11-24)
 
 
