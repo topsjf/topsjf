@@ -17,8 +17,9 @@ jobs:
     name: 生成日志与创建PR
     runs-on: ubuntu-latest
     steps:
-      - uses: GoogleCloudPlatform/release-please-action@v3
-        id: release
+      - uses: google-github-actions/release-please-action@v3
+     # - uses: GoogleCloudPlatform/release-please-action@v3
+    #    id: release
         with:
           token: ${{ secrets.RELEASE_TOKEN }}
           release-type: node
