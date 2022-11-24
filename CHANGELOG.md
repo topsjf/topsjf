@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.9](https://github.com/topsjf/topsjf/compare/v2.4.8...v2.4.9) (2022-11-24)
+
+
+### 🧪Tests
+
+* 更新脚本 ([c3f4b02](https://github.com/topsjf/topsjf/commit/c3f4b02d17a28b4a4f38c693dacdea4c4f8004eb))
+
 ## [2.4.8](https://github.com/topsjf/topsjf/compare/v2.4.7...v2.4.8) (2022-11-24)
 
 
