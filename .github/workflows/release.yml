@@ -1,15 +1,21 @@
-name: 生成日志与PR
+name: release
 on:
   push:
     branches:
       - main
     paths-ignore:
+      - img/**
+      - docs/.vuepress/**/**.tsp
       - README.md
       - LICENSE
+#  pull_request:
+ #   branches:
+   #   - main      
 env:
   PNAME: topsjf
 jobs:
   release-please:
+    name: 生成日志与PR
     runs-on: ubuntu-latest
     steps:
       - uses: GoogleCloudPlatform/release-please-action@v3
@@ -18,4 +24,68 @@ jobs:
           token: ${{ secrets.RELEASE_TOKEN }}
           release-type: node
           package-name: ${{env.PNAME}}
-          changelog-types: '[{"type": "types", "section":"Types", "hidden": false},{"type": "revert", "section":"⏪️Reverts", "hidden": false},{"type": "feat", "section": "✨Features", "hidden": false},{"type": "fix", "section": "🐛Bug Fixes", "hidden": false},{"type": "improvement", "section": "⚙️Feature Improvements", "hidden": false},{"type": "docs", "section":"📚Docs", "hidden": false},{"type": "style", "section":"🎨Styling", "hidden": false},{"type": "refactor", "section":"♻️Code Refactoring", "hidden": false},{"type": "perf", "section":"⚡️Performance Improvements", "hidden": false},{"type": "test", "section":"🧪Tests", "hidden": false},{"type": "build", "section":"📦️Build System", "hidden": false},{"type": "ci", "section":"🎡CI", "hidden":false}]' 
+          changelog-types: '[{"type": "types", "section":"Types", "hidden": false},{"type": "revert", "section":"⏪️Reverts", "hidden": false},{"type": "feat", "section": "✨Features", "hidden": false},{"type": "fix", "section": "🐛Bug Fixes", "hidden": false},{"type": "improvement", "section": "⚙️Feature Improvements", "hidden": false},{"type": "docs", "section":"📚Docs", "hidden": false},{"type": "style", "section":"🎨Styling", "hidden": false},{"type": "refactor", "section":"♻️Code Refactoring", "hidden": false},{"type": "perf", "section":"⚡️Performance Improvements", "hidden": false},{"type": "test", "section":"🧪Tests", "hidden": false},{"type": "build", "section":"📦️Build System", "hidden": false},{"type": "ci", "section":"🎡CI", "hidden":false}]'
+          
+  # 合并发布版本的 pr 到 main
+  auto-merge:
+    runs-on: ubuntu-latest
+    name: 合并PR到main
+    needs: [release-please]
+    steps:
+      - name: Automerge
+        uses: 'pascalgn/automerge-action@v0.14.3'
+        env:
+          GITHUB_TOKEN: '${{ secrets.RELEASE_TOKEN }}'
+          MERGE_LABELS: ''
+          MERGE_FILTER_AUTHOR: 'topsjf' 
+
+  deploy-gh-pages:
+    name: 部署文档
+    needs: 
+      - release-please
+      - auto-merge
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
+
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+          run_install: true
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: pnpm
+
+      - name: 安装 Deps
+        run: pnpm install --frozen-lockfile
+
+      - name: 构建文档
+        env:
+          BASE: /
+          HOSTNAME: https://topsjf.github.io/
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          pnpm run build:vite
+          > docs/.vuepress/dist/.nojekyll
+
+      - name: 部署文档
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # 部署到 topsjf/v2 仓库
+          repository-name: topsjf/topsjf.github.io
+          # 部署的分支名称
+          branch: gh-pages
+          folder: docs/.vuepress/dist
+          token: ${{ secrets.ACCESS_TOKEN }}
+          single-commit: true
+
+

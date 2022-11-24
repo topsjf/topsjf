@@ -19,6 +19,7 @@ jobs:
   # 合并发布版本的 pr 到 master
   auto-merge:
     runs-on: ubuntu-latest
+    needs: [build]
     steps:
       - name: Automerge
         uses: 'pascalgn/automerge-action@v0.14.3'
