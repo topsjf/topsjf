@@ -23,7 +23,7 @@ jobs:
         with:
           #添加文件
           extra-files: |
-            echo ".github" >> .gitignore
+            echo ".github" >> pp.gitignore
           token: ${{ secrets.RELEASE_TOKEN }}
           release-type: node
          # repo-url: ${{env.BRANCH}}
