@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/topsjf/topsjf/compare/v2.4.17...v3.0.0) (2022-11-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* 中等变更
+
+### ✨Features
+
+* 自动生成日志与版本号发布 ([c9f0754](https://github.com/topsjf/topsjf/commit/c9f07540741977061e733e42eea727e59672937b))
+
 ## [2.4.17](https://github.com/topsjf/topsjf/compare/v2.4.16...v2.4.17) (2022-11-24)
 
 
