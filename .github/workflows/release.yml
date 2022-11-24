@@ -12,19 +12,19 @@ on:
       
 env:
   PNAME: topsjf
+  BRANCH: release-log
 jobs:
   release-please:
     name: 生成日志与创建PR
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
-     # - uses: GoogleCloudPlatform/release-please-action@v3
-    #    id: release
         with:
+          default-branch: ${{BRANCH}}
           token: ${{ secrets.RELEASE_TOKEN }}
           release-type: node
           package-name: ${{env.PNAME}}
-          pull-request-title-pattern: 'chore${scope}: release${component} ${version}'
+          pull-request-title-pattern: 'chore${scope}: release${component} ${branch?} ${version}'
           changelog-types: '[{"type": "types", "section":"Types", "hidden": false},{"type": "revert", "section":"⏪️Reverts", "hidden": false},{"type": "feat", "section": "✨Features", "hidden": false},{"type": "fix", "section": "🐛Bug Fixes", "hidden": false},{"type": "improvement", "section": "⚙️Feature Improvements", "hidden": false},{"type": "docs", "section":"📚Docs", "hidden": false},{"type": "style", "section":"🎨Styling", "hidden": false},{"type": "refactor", "section":"♻️Code Refactoring", "hidden": false},{"type": "perf", "section":"⚡️Performance Improvements", "hidden": false},{"type": "test", "section":"🧪Tests", "hidden": false},{"type": "build", "section":"📦️Build System", "hidden": false},{"type": "ci", "section":"🎡CI", "hidden":false}]'
 
 
