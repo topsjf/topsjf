@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.16](https://github.com/topsjf/topsjf/compare/v2.4.15...v2.4.16) (2022-11-24)
+
+
+### 🧪Tests
+
+* 爬爬爬 ([0772935](https://github.com/topsjf/topsjf/commit/07729359e2a9ec33586e319a52e54e8687c22686))
+
 ## [2.4.15](https://github.com/topsjf/topsjf/compare/v2.4.14...v2.4.15) (2022-11-24)
 
 
