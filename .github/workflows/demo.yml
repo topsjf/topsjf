@@ -36,7 +36,6 @@ jobs:
   release-please-pr:
     runs-on: ubuntu-latest
     needs:
-      - build
       - release-please-release
     steps:
       - id: release-pr
