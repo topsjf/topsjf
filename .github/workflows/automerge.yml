@@ -23,7 +23,7 @@ on:
   
 jobs:
   automerge:    
-    name: merge PR to main branch
+    name: 合并PR
     runs-on: ubuntu-latest
     steps:
       - id: automerge
@@ -39,7 +39,7 @@ jobs:
           #重试间隔10s
           MERGE_RETRY_SLEEP: '10000'
           #合并后删除分支
-        #  MERGE_DELETE_BRANCH: 'true'
+          MERGE_DELETE_BRANCH: 'true'
           MERGE_FILTER_AUTHOR: 'topsjf' 
 
 
