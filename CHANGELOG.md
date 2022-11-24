@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.4.14](https://github.com/topsjf/topsjf/compare/v2.4.13...v2.4.14) (2022-11-24)
+
+
+### 🧪Tests
+
+* 更新 ([fc987c6](https://github.com/topsjf/topsjf/commit/fc987c6c251814d35d851305338e79002018b301))
+* 更新 ([1f46f20](https://github.com/topsjf/topsjf/commit/1f46f209ca264d2376ab880cfe1c7abd42a36aa7))
+* 更新release ([d203f36](https://github.com/topsjf/topsjf/commit/d203f3681c7abbec7bed824d806bd98d59a3e644))
+* 更新了呢 ([0193509](https://github.com/topsjf/topsjf/commit/0193509ad4cbd2138cd212c5a85c98368de28166))
+* 更新后 ([c356e43](https://github.com/topsjf/topsjf/commit/c356e43a268733c5e7003d8f336b6ccb5a52d3fd))
+
 ## [2.4.13](https://github.com/topsjf/topsjf/compare/v2.4.12...v2.4.13) (2022-11-24)
 
 
