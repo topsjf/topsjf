@@ -12,7 +12,6 @@ on:
       
 env:
   PNAME: topsjf
-  BRANCH: release-log
   
 jobs:
   release-please:
@@ -21,9 +20,6 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-          #添加文件
-          extra-files: |
-            demo.md
           token: ${{ secrets.RELEASE_TOKEN }}
           release-type: node
           package-name: ${{env.PNAME}}
