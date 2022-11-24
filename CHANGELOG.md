@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.10](https://github.com/topsjf/topsjf/compare/v2.4.9...v2.4.10) (2022-11-24)
+
+
+### 🧪Tests
+
+* 更新了 ([69ecd9a](https://github.com/topsjf/topsjf/commit/69ecd9a65e23db6bbf04417c995ddd34245261d3))
+
 ## [2.4.9](https://github.com/topsjf/topsjf/compare/v2.4.8...v2.4.9) (2022-11-24)
 
 
