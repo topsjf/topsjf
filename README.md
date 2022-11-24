@@ -1,23 +1,47 @@
 ## topsjf
 
-- [🚀🚀预览地址🚀🚀](https://topsjf.github.io/)
-- [github仓库](https://github.com/topsjf/topsjf)
-- [gitee仓库](https://gitee.com/topsjf/topsjf)
-- [存储评论消息仓库](https://github.com/topsjf/giscus-discussions)
-- [vuepress-theme-hope官网文档](https://vuepress-theme-hope.github.io/v2/zh/)、[github仓库](https://github.com/vuepress-theme-hope/vuepress-theme-hope)
+- [🚀🚀预览🚀🚀](https://topsjf.github.io/)
+- [github](https://github.com/topsjf/topsjf)
+- [gitee](https://gitee.com/topsjf/topsjf)
+- vuepress-theme-hope：[文档](https://vuepress-theme-hope.github.io/v2/zh/)、[github](https://github.com/vuepress-theme-hope/vuepress-theme-hope)
 - [使用Java压缩md文件中使用到的图片](https://gitee.com/cps007/imgfileserve)
 - [参考 Mister-Hope.github.io](https://github.com/Mister-Hope/Mister-Hope.github.io)
 
-
 --------
-- [releases](https://github.com/topsjf/topsjf/releases)
 
+- [releases](https://github.com/topsjf/topsjf/releases)
 
 -------
 
 [![](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/topsjf/topsjf)
 
 -------
+
+## 提交规范
+
+git add -A
+
+**命令提交**：pnpm run commit || git commit -m "选项: 描述"
+
+**web端提交** 简单描述格式：选项: 简要描述
+
+*可选项如下*：
+
+- feat: 新的功能
+- fix: 修复bug
+- docs: 只修改文档
+- style: 不影响代码含义的修改（比如：空格、格式化、添加缺少的分号等）
+- refactor: 重构代码（既不修复错误，也不增加功能）
+- perf: 性能优化
+- test: 添加测试或纠正现有测试
+- build: 影响构建系统或外部依赖的变化（如glup、npm等）
+- ci: ci配置文件和脚本的改变 （如：Travis、Circle）
+- chore: 其它不修改src或测试文件的改动
+- revert: 回滚之前的提交
+- **fix** 发布会增加修订版本号（如 1.0.0 –> 1.0.1）
+- **feat** 发布会增加次版本号（如1.0.0 –> 1.1.0）
+- **break change feature** 发布会增加主版本号（如1.1.1 –> 2.0.0）
+
 
 
 ## 添加新文件步骤
