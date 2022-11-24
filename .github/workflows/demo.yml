@@ -11,9 +11,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: install
-      run: npm ci
+      run: pnpm install
     - name: build
-      run: npm run build:vite
+      run: pnpm run build:vite
     - name: commit
       run: |-
         set -e
