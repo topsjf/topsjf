@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.0](https://github.com/topsjf/topsjf/compare/v2.3.2...v2.4.0) (2022-11-24)
+
+
+### ✨Features
+
+* 更新版本到129，自动发布版本 ([47ac9b5](https://github.com/topsjf/topsjf/commit/47ac9b5f8b227acfd764ea8dd096509c631e29d2))
+
 ## [2.3.2.1]() (2022-11-23)
 
 - 更新文档，删除lidecode文件，是否文章，是否显示时间线（[cb1cae0](https://github.com/topsjf/topsjf/commit/cb1cae0fbb8d96517ddede4069c699ff53e95656)，[3e40bd7](https://github.com/topsjf/topsjf/commit/3e40bd7cac8ab9be7938321a43524573b4526207)）
@@ -115,4 +122,3 @@ vue  `3.2.39`
 ## [2.0.0-beta.47]() (2022-07-01)
 
 init初始化项目
-
