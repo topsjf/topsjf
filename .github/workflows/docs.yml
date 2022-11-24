@@ -1,11 +1,13 @@
 
-name: 部署文档
+name: Build docs
 
 on:
   push:
-    #tags:
-    branches:
-      - main
+    tags:
+      - v2.**
+      - v3.**
+ #   branches:
+ #     - main
     paths-ignore:
       - img/**
       - docs/.vuepress/**/**.tsp
@@ -14,6 +16,10 @@ on:
 
 jobs:
   deploy-gh-pages:
+    name: 发布文档
+    needs: 
+      #- release-please
+      - automerge
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -57,4 +63,5 @@ jobs:
           folder: docs/.vuepress/dist
           token: ${{ secrets.ACCESS_TOKEN }}
           single-commit: true
+
 
