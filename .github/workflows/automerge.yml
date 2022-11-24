@@ -1,4 +1,5 @@
 name: AutoMerge And Build Docs
+
 on:
   #以下pr类型触发
   pull_request:
