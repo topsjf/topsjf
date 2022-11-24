@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.4](https://github.com/topsjf/topsjf/compare/v2.4.3...v2.4.4) (2022-11-24)
+
+
+### 🐛Bug Fixes
+
+* 取消test工作流 ([984f5a8](https://github.com/topsjf/topsjf/commit/984f5a8aaad638447dc737b277ba8bdf88896ef6))
+
 ## [2.4.3](https://github.com/topsjf/topsjf/compare/v2.4.2...v2.4.3) (2022-11-24)
 
 
