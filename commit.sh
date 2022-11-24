@@ -19,4 +19,3 @@ git push -u origin main
 echo -------
 echo ok!
 
-quit

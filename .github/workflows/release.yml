@@ -1,4 +1,5 @@
-name: Release PR
+name: release PR
+
 on:
   push:
     branches:
