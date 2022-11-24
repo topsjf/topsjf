@@ -1,4 +1,4 @@
-name: release
+name: release to pr
 on:
   push:
     branches:
@@ -8,14 +8,12 @@ on:
       - docs/.vuepress/**/**.tsp
       - README.md
       - LICENSE
-#  pull_request:
- #   branches:
-   #   - main      
+      
 env:
   PNAME: topsjf
 jobs:
   release-please:
-    name: 生成日志与PR
+    name: 生成日志与创建PR
     runs-on: ubuntu-latest
     steps:
       - uses: GoogleCloudPlatform/release-please-action@v3
