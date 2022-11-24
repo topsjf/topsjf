@@ -6,27 +6,9 @@ name: release-please
 env:
   ACTION_NAME: topsjf
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - name: Create PR with dist
-      uses: peter-evans/create-pull-request@v4
-      with:
-        token: ${{ secrets.RELEASE_TOKEN }}
-        commit-message: Build dist
-        author: "jinfang <topjfk@163.com>"
-        title: "chore: build dist"
-        body: |
-          Build dist PR
-        labels: automated pr
-        branch: create-pull-request/build-dist
-        delete-branch: true
-        push-to-fork: topsjf/${{env.ACTION_NAME}}
-        
   release-please-release:
     runs-on: ubuntu-latest
-    needs: [build]
+   # needs: [build]
     steps:
       - uses: GoogleCloudPlatform/release-please-action@main
         id: release
