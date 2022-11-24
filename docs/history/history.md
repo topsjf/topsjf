@@ -7,5 +7,5 @@ date: 2019-05-12
 
 <!-- more -->
 
-@include(../../CHANGELOG.md{4-})
+@include(../../CHANGELOG.md{3-})
 

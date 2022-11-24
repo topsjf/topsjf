@@ -1,40 +1,50 @@
 {
-  "name": "topsjf",
-  "version": "2.3.2",
-  "description": "MY.笔记",
-  "license": "MIT",
-  "type": "module",
-  "scripts": {
-      "build:vite": "vuepress-vite build docs",
-      "dev:vite": "vuepress-vite dev docs",
-      "dev:vite-clean": "vuepress-vite dev docs --clean-cache",
-      "lint-md": "markdownlint **/*.md --ignore node_modules --fix"
-  },
-  "dependencies": {
-      "@vuepress/client": "2.0.0-beta.53",
-      "vue": "^3.2.45",
-      "vuepress": "2.0.0-beta.53",
-      "vuepress-vite": "2.0.0-beta.53",
-      "vuepress-theme-hope": "2.0.0-beta.126",
-      "vuepress-plugin-search-pro": "2.0.0-beta.126"
-  },
-  "devDependencies": {
-      "markdownlint-cli": "^0.32.2"
-  
-  },
-  "packageManager": "pnpm@7.17.0",
-  "engines": {
-      "node": ">=14",
-      "npm": ">=8",
-      "pnpm": ">=7"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@algolia/client-search",
-        "webpack",
-        "sass-loader"
-      ]
+    "name": "topsjf",
+    "version": "2.3.2",
+    "description": "MY.笔记",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "build:vite": "vuepress-vite build docs",
+        "dev:vite": "vuepress-vite dev docs",
+        "dev:vite-clean": "vuepress-vite dev docs --clean-cache",
+        "test": "echo test demo out!",
+        "commit": "git-cz",
+        "husky": "husky install",
+        "lint-md": "markdownlint **/*.md --ignore node_modules --fix"
+    },
+    "dependencies": {
+        "@vuepress/client": "2.0.0-beta.53",
+        "vue": "^3.2.45",
+        "vuepress": "2.0.0-beta.53",
+        "vuepress-plugin-search-pro": "2.0.0-beta.129",
+        "vuepress-theme-hope": "2.0.0-beta.129",
+        "vuepress-vite": "2.0.0-beta.53"
+    },
+    "devDependencies": {
+        "commitizen": "^4.2.5",
+        "cz-conventional-changelog": "^3.3.0",
+        "markdownlint-cli": "^0.32.2"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+            
+        }
+    },
+    "packageManager": "pnpm@7.17.0",
+    "engines": {
+        "node": ">=14",
+        "npm": ">=8",
+        "pnpm": ">=7"
+    },
+    "pnpm": {
+        "peerDependencyRules": {
+            "ignoreMissing": [
+                "@algolia/client-search",
+                "webpack",
+                "sass-loader"
+            ]
+        }
     }
-  }
 }
