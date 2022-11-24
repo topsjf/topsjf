@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.4.1](https://github.com/topsjf/topsjf/compare/v2.4.0...v2.4.1) (2022-11-24)
+
+
+### 🧪Tests
+
+* github CICD测试 ([84403a9](https://github.com/topsjf/topsjf/commit/84403a9b15c5d909fa4026e27a8b74efeac89777))
+* github CICD测试流 ([5c1692a](https://github.com/topsjf/topsjf/commit/5c1692aa308235180e839d1e86a8c90b8532161c))
+
 ## [2.4.0](https://github.com/topsjf/topsjf/compare/v2.3.2...v2.4.0) (2022-11-24)
 
 
