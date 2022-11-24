@@ -4,7 +4,7 @@ on:
   push:
     tags:
       - v2.**
-      
+      - v3.**
    # branches:
    #   - main
     paths-ignore:
@@ -16,9 +16,6 @@ on:
 jobs:
   deploy-gh-pages:
     name: 发布文档
-    #needs: 
-      #- release-please
-      #- automerge
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
