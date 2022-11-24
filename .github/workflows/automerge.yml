@@ -33,7 +33,7 @@ jobs:
           GITHUB_TOKEN: '${{ secrets.RELEASE_TOKEN }}'
           MERGE_LABELS: ''
           #title，and，description
-          MERGE_COMMIT_MESSAGE: "pull-request-description"
+          MERGE_COMMIT_MESSAGE: "pull-request-title-and-description"
           #重试次数
           MERGE_RETRIES: '0'
           #重试间隔10s
