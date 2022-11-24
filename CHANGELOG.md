@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.4.8](https://github.com/topsjf/topsjf/compare/v2.4.7...v2.4.8) (2022-11-24)
+
+
+### 🧪Tests
+
+* gx ([6d16f06](https://github.com/topsjf/topsjf/commit/6d16f06c49694d54f94c7031b4b7554c93ed8622))
+* 更新配置 ([035be36](https://github.com/topsjf/topsjf/commit/035be3618a5350978e0138ea954e1e6181385124))
+
 ## [2.4.7](https://github.com/topsjf/topsjf/compare/v2.4.6...v2.4.7) (2022-11-24)
 
 
