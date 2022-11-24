@@ -31,7 +31,7 @@ jobs:
   deploy-gh-pages:
     name: 部署文档
     needs: 
-      - release-please
+      #- release-please
       - auto-merge
     runs-on: ubuntu-latest
     steps:
