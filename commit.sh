@@ -6,6 +6,10 @@ echo -------
 echo commit git
 echo
 
+git pull
+
+git status
+
 git add -A
 
 pnpm run commit

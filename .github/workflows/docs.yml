@@ -5,9 +5,9 @@ on:
   push:
     tags:
       - v2.**
-      - v3.**
- #   branches:
- #     - main
+      
+   # branches:
+   #   - main
     paths-ignore:
       - img/**
       - docs/.vuepress/**/**.tsp
@@ -17,9 +17,9 @@ on:
 jobs:
   deploy-gh-pages:
     name: 发布文档
-    needs: 
+    #needs: 
       #- release-please
-      - automerge
+      #- automerge
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
