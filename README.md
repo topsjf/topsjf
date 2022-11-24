@@ -7,10 +7,9 @@
 - [使用Java压缩md文件中使用到的图片](https://gitee.com/cps007/imgfileserve)
 - [参考 Mister-Hope.github.io](https://github.com/Mister-Hope/Mister-Hope.github.io)
 
-
 --------
-- [releases](https://github.com/topsjf/topsjf/releases)
 
+- [releases](https://github.com/topsjf/topsjf/releases)
 
 -------
 
@@ -26,10 +25,17 @@ git add -A
 
 **web端提交** 简单描述格式：选项: 简要描述
 
+<<<<<<< HEAD
 可选项如下：
 
 - feat: 新的功能
 - fix: 修复buf
+=======
+*可选项如下*：
+- break change feature 发布会增加主版本号（如1.1.1 –> 2.0.0）
+- feat: 新的功能，发布版本会增加次版本号（如1.0.0 –> 1.1.0）
+- fix: 修复bug，发布版本会增加修订版本号（如 1.0.0 –> 1.0.1）
+>>>>>>> 1c4a7bdee6d644d2bed9a2365d8ca42fef679474
 - docs: 只修改文档
 - style: 不影响代码含义的修改（比如：空格、格式化、添加缺少的分号等）
 - refactor: 重构代码（既不修复错误，也不增加功能）
@@ -40,9 +46,12 @@ git add -A
 - chore: 其它不修改src或测试文件的改动
 - revert: 回滚之前的提交
 
+<<<<<<< HEAD
 - **fix** 发布会增加修订版本号（如 1.0.0 –> 1.0.1）
 - **feat** 发布会增加次版本号（如1.0.0 –> 1.1.0）
 - break change feature 发布会增加主版本号（如1.1.1 –> 2.0.0）
+=======
+>>>>>>> 1c4a7bdee6d644d2bed9a2365d8ca42fef679474
 
 ## 添加新文件步骤
 
@@ -80,39 +89,6 @@ article: false
 timeline: false
 ```
 
-
-## 目录结构
-
-```text
-topsjf:
-│
-├─ docs //md 文件系统 
-│  ├─ .vuepress         // vuepress 项目 
-│  │  ├─ sidebar            // 侧边栏json数据设置 
-│  │  │  └─ index.ts 
-│  │  ├─ styles             // css样式配置 
-│  │  │  └─ index.scss 
-│  │  ├─ navbar.ts          // 导航栏配置 
-│  │  ├─ sidebar.ts         // 侧边栏、路由配置 
-│  │  ├─ theme.ts           // 主题配置 
-│  │  └─ config.ts          // 项目配置 
-│  │   
-│  │  =====下面开始就是自己的md文件，可以包含多级目录==== 
-│  ├─ java 
-│  │  ├─ basis              // java基础
-│  │  │  └─ basis.md
-│  │  └─ README.md          // java首页
-│  │
-│  ├─ home.md           // 快速导航页面
-│  └─ README.md         // index 首页
-│
-├─ .gitignore               // git 配置 
-├─ package-lock.json        // 锁定依赖版本
-├─ pnpm-lock.yaml           // 锁定依赖版本
-└─ package.json             // 依赖版本
-
-```
-
 ## 效果预览
 
 ![](./img/true-img.png)
@@ -124,6 +100,8 @@ topsjf:
 ## 技术选型
 
 - 设置淘宝源
+
+配置查看：npm config list
 
 ```shell
 npm config set registry https://registry.npm.taobao.org
