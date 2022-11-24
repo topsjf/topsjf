@@ -32,7 +32,8 @@ jobs:
         env:
           GITHUB_TOKEN: '${{ secrets.RELEASE_TOKEN }}'
           MERGE_LABELS: ''
-          MERGE_COMMIT_MESSAGE: "pull-request-title"
+          #title，and，description
+          MERGE_COMMIT_MESSAGE: "pull-request-description"
           #重试次数
           MERGE_RETRIES: '0'
           #重试间隔10s
