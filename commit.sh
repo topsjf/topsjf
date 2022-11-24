@@ -9,22 +9,22 @@ echo -------
 echo commit git
 echo
 
-echo -e "\r\n拉取新代码..."
+echo -e "\n======> 拉取新代码...\n"
 git pull
 
-echo -e "\r\n查看本地状态..."
+echo -e "\n======> 查看本地状态...\n"
 
 git status
 
-echo -e "\r\n添加更改到本地仓库缓存..."
+echo -e "\n======> 添加更改到本地仓库缓存..."
 
 git add -A
 
-echo -e "\r\n设置提交消息:"
+echo -e "\n======> 设置提交消息:\n"
 
 pnpm run commit
 
-echo -e "\r\n提交到 ${branch} 远程仓库"
+echo -e "\n======> 提交到远程 ${branch} 分支\n"
 
 git push -u $tag $branch
 
