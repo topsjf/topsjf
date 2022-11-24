@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.7](https://github.com/topsjf/topsjf/compare/v2.4.6...v2.4.7) (2022-11-24)
+
+
+### 🧪Tests
+
+* 测试cicd工作流 ([2047a25](https://github.com/topsjf/topsjf/commit/2047a25507d099808944a6e914d9e4054235bfee))
+
 ## [2.4.6](https://github.com/topsjf/topsjf/compare/v2.4.5...v2.4.6) (2022-11-24)
 
 
