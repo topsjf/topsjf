@@ -11,8 +11,8 @@ on:
       - LICENSE
       
 env:
-  PNAME: topsjf
-  BRANCH: release-log
+  - PNAME: topsjf
+  - BRANCH: release-log
 jobs:
   release-please:
     name: 生成日志与创建PR
