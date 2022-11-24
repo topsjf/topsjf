@@ -17,6 +17,9 @@
 
 -------
 
+版本格式: 
+1.0.1.3.6 `major.minor.patch.preRelease.build`
+
 ## 提交规范
 
 git add -A

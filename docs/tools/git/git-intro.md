@@ -237,7 +237,7 @@ git push origin
 ## 常用操作命令
 
 
-- 更多命令参考 [讲解git同步远程分支到本地 git使用方法有哪些](http://www.scicat.cn/aa/20211110/847271.html)
+- 更多命令参考 `[讲解git同步远程分支到本地 git使用方法有哪些]()`
 
 
 删除github远程 branch
