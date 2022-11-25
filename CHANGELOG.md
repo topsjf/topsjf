@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.4](https://github.com/topsjf/topsjf/compare/v3.0.3...v3.0.4) (2022-11-25)
+
+
+### 🐛Bug Fixes
+
+* 修复log文件图片引入问题 ([48bc84b](https://github.com/topsjf/topsjf/commit/48bc84ba8a964b2f3bf16ce5293ee604c8c514b6))
+
 ## [3.0.3](https://github.com/topsjf/topsjf/compare/v3.0.2...v3.0.3) (2022-11-25)
 
 
