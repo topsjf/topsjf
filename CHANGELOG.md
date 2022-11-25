@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.0.2](https://github.com/topsjf/topsjf/compare/v3.0.1...v3.0.2) (2022-11-25)
+
+
+### 📚Docs
+
+* 更新说明 ([4e51907](https://github.com/topsjf/topsjf/commit/4e5190758a1c53ad6b7fa374a0a8e223fe6f8678))
+
+
+### 🐛Bug Fixes
+
+* setting git commit massges check to commitlint ([27b1ae0](https://github.com/topsjf/topsjf/commit/27b1ae006ea82a724f034f46ecbcfb6cdda59bec))
+* setting git commits massges ([6b3d3f4](https://github.com/topsjf/topsjf/commit/6b3d3f418d407141079aa06db8f91db42b3377b6))
+
 ## [3.0.1](https://github.com/topsjf/topsjf/compare/v3.0.0...v3.0.1) (2022-11-24)
 
 
