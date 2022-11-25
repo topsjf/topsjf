@@ -32,5 +32,3 @@ projects:
 
 
 ---
-
-@include(../README.md{23-})
