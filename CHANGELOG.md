@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.5](https://github.com/topsjf/topsjf/compare/v3.0.4...v3.0.5) (2022-11-25)
+
+
+### 🐛Bug Fixes
+
+* 修复首页引入文件README ([e87ce42](https://github.com/topsjf/topsjf/commit/e87ce42765016d8c9ee8e794f14727f027055014))
+
 ## [3.0.4](https://github.com/topsjf/topsjf/compare/v3.0.3...v3.0.4) (2022-11-25)
 
 
