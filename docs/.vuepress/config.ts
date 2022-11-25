@@ -7,7 +7,7 @@ import {copyCode} from "vuepress-theme-hope";
 
 export default defineUserConfig({
     
-    base: "/",
+    base: "./",
     
     locales: {
         "/": {

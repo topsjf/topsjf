@@ -3,15 +3,14 @@
     "version": "3.0.1",
     "description": "MY.笔记",
     "license": "MIT",
-    "type": "module",
     "scripts": {
         "build:vite": "vuepress-vite build docs",
         "dev:vite": "vuepress-vite dev docs",
         "dev:vite-clean": "vuepress-vite dev docs --clean-cache",
-        "test": "echo test demo out!",
+        "test": "echo demo test out。&& exit $1",
         "commit": "git-cz",
-        "husky": "husky install",
-        "lint-md": "markdownlint **/*.md --ignore node_modules --fix"
+        "lint-md": "markdownlint **/*.md --ignore node_modules --fix",
+        "prepare": "husky install"
     },
     "dependencies": {
         "@vuepress/client": "2.0.0-beta.53",
@@ -26,11 +25,6 @@
         "cz-conventional-changelog": "^3.3.0",
         "markdownlint-cli": "^0.32.2"
     },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
-        }
-    },
     "packageManager": "pnpm@7.17.0",
     "engines": {
         "node": ">=14",
@@ -44,6 +38,11 @@
                 "webpack",
                 "sass-loader"
             ]
+        }
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
         }
     }
 }
