@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.3](https://github.com/topsjf/topsjf/compare/v3.0.2...v3.0.3) (2022-11-25)
+
+
+### 🐛Bug Fixes
+
+* 更新主题版本129-130、配置，其他更新 ([7c75365](https://github.com/topsjf/topsjf/commit/7c75365fe350a7fa608f6adc58e9cc00bb96e281))
+
 ## [3.0.2](https://github.com/topsjf/topsjf/compare/v3.0.1...v3.0.2) (2022-11-25)
 
 
