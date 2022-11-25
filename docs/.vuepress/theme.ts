@@ -163,8 +163,8 @@ export default hopeTheme({
         pwa: {  
             update: "hint",
             cachePic: true,
-            maxSize: 1024 * 20,
-            maxPicSize: 1024 * 8,
+            maxSize: 1024 * 8,
+            maxPicSize: 1024 * 6,
             //是否缓存除主页和 404 错误页之外的 HTML 文件
             cacheHTML: false,
             appendBase: true,

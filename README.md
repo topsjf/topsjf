@@ -17,7 +17,7 @@
 1.0.1 `major.minor.patch.preRelease.build`
 
 
-    "type": "module",
+"type": "module",
     
 
 ## 提交规范
@@ -81,7 +81,7 @@ timeline: false
 
 ## 效果预览
 
-![](./img/true-img.png)
+![](./img/true-img-3.png)
 
 ![](./img/true-img-1.png)
 

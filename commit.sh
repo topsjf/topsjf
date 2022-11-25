@@ -6,10 +6,11 @@ tag=origin
 branch=main
 
 echo -------
-echo commit git
+echo 提交git
 echo
 
 echo -e "\n======> 拉取新代码...\n"
+
 git pull
 
 echo -e "\n======> 查看本地状态...\n"
@@ -30,5 +31,5 @@ git push -u $tag $branch
 
 echo
 echo -------
-echo ok!
-
+echo ok! 等待退出。
+echo
