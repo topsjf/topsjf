@@ -79,14 +79,6 @@ article: false
 timeline: false
 ```
 
-## 效果预览
-
-![](./img/true-img-3.png)
-
-![](./img/true-img-1.png)
-
-![](./img/true-img-2.png)
-
 ## 技术选型
 
 - 设置淘宝源
