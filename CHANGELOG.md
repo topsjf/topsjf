@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.1](https://github.com/topsjf/topsjf/compare/v3.1.0...v3.1.1) (2022-11-27)
+
+
+### 🐛Bug Fixes
+
+* 更新自动合并pr ([cd0412b](https://github.com/topsjf/topsjf/commit/cd0412b968f0f367b6142802f1fc973fd412fcb9))
+
 ## [3.1.0](https://github.com/topsjf/topsjf/compare/v3.0.6...v3.1.0) (2022-11-27)
 
 
