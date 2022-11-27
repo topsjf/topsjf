@@ -28,7 +28,7 @@
         "husky": "^8.0.2",
         "markdownlint-cli": "^0.32.2"
     },
-    "packageManager": "pnpm@7.17.0",
+    "packageManager": "pnpm@7.17.1",
     "engines": {
         "node": ">=14",
         "npm": ">=8",

@@ -2119,7 +2119,7 @@ packages:
     name: '@types/sax'
     version: 1.2.4
     dependencies:
-      '@types/node': registry.npmmirror.com/@types/node/17.0.45
+      '@types/node': registry.npmmirror.com/@types/node/18.11.9
     dev: false
 
   registry.npmmirror.com/@types/trusted-types/2.0.2:
