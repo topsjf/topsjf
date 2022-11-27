@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.0.6](https://github.com/topsjf/topsjf/compare/v3.0.5...v3.0.6) (2022-11-27)
+
+
+### 📚Docs
+
+* 更新项目文档说明 ([6433acc](https://github.com/topsjf/topsjf/commit/6433acc038e04a3085ee11aa9e42bf5dde2bda1b))
+
+
+### 🎡CI
+
+* pnpm管理版本7.17.0 to 7.17.1 ([c9e920b](https://github.com/topsjf/topsjf/commit/c9e920b7794e1840babbf07f983c70248981ec28))
+
 ## [3.0.5](https://github.com/topsjf/topsjf/compare/v3.0.4...v3.0.5) (2022-11-25)
 
 
