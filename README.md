@@ -30,7 +30,7 @@
 **web端提交** 简单描述格式：选项: 简要描述
 
 *可选项如下*：
-- break change feature 发布会增加主版本号（如1.1.1 –> 2.0.0）
+- break change feature 发布会增加主版本号（如1.1.1 –> 2.0.0）**这个选择位于 feat 选项的：? Are there any breaking changes? **
 - feat: 新的功能，发布版本会增加次版本号（如1.0.0 –> 1.1.0）
 - fix: 修复bug，发布版本会增加修订版本号（如 1.0.0 –> 1.0.1）
 - docs: 只修改文档
