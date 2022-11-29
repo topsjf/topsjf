@@ -16,6 +16,8 @@ timeline: false
 - [SRE（运维工程师）成长路线的总结和思考](https://zhuanlan.zhihu.com/p/536895461?utm_id=0)
 
 
+<!-- more -->
+
 ## Linux
 
 - [Linux基础](./basis/basis.md)

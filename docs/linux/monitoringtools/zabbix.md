@@ -7,6 +7,8 @@ tag:
 - Zabbix
 ---
 
+<!-- more -->
+
 # Zabbix监控平台
 
 ## 环境准备

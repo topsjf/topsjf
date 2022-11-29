@@ -7,6 +7,8 @@ tag:
 - ansible
 ---
 
+<!-- more -->
+
 # ansible安装jdk
 
 -

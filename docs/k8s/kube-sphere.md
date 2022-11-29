@@ -8,6 +8,8 @@ tag:
 - k8s
 ---
 
+<!-- more -->
+
 # k8s-可视化管理工具-KubeSphere
 
 在`master`主机安装KubeSphere

@@ -7,6 +7,8 @@ tag:
 - nodejs
 ---
 
+<!-- more -->
+
 ## linux 配置
 
 Node.js  [安装-教程](https://blog.csdn.net/qq_42476834/article/details/110789382)

@@ -9,6 +9,8 @@ tag:
 ---
 
 
+<!-- more -->
+
 
 # centos(kernel)内核升级
 

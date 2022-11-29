@@ -7,6 +7,8 @@ tag:
 - eclipse
 ---
 
+<!-- more -->
+
 # eclipse
 
 

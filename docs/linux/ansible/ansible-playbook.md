@@ -7,6 +7,7 @@ tag:
 - ansible
 ---
 
+<!-- more -->
 
 # ansible-playbook任务编排工具（剧本）
 

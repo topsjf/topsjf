@@ -7,6 +7,8 @@ tag:
 - RabbitMQ
 ---
 
+<!-- more -->
+
 # RabbitMQ
 
 https://www.rabbitmq.com/

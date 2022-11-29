@@ -11,10 +11,10 @@ tag:
 - CommandExamples
 ---
 
+<!-- more -->
+
 
 # 常用Linux命令实例
-
-<!-- more -->
 
 ## 1、查看有多少个IP访问：
 

@@ -7,6 +7,8 @@ tag:
 - nginx
 ---
 
+<!-- more -->
+
 # nginx
 
 ## 常用指令

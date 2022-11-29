@@ -8,6 +8,8 @@ tag:
 - dockerfile
 ---
 
+<!-- more -->
+
 # DockerFile 配置基于centos7 安装运行jdk、Java项目jar包、并设置中文UTF-8字符集
 
 ## dockerfile脚本

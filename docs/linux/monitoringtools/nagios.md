@@ -7,6 +7,8 @@ tag:
 - Nagios
 ---
 
+<!-- more -->
+
 # Nagios监控平台
 
 

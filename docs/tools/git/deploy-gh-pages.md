@@ -7,6 +7,8 @@ tag:
 - Github
 ---
 
+<!-- more -->
+
 # Github 自动部署WEB项目
 
 ## 创建仓库

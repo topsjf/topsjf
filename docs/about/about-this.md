@@ -16,6 +16,8 @@ date: 2019-05-12
 曾益其所不能。
 
 
+<!-- more -->
+
 网站框架支持：
 
 - [参考 Mister-Hope.github.io](https://github.com/Mister-Hope/Mister-Hope.github.io)

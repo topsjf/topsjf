@@ -8,6 +8,8 @@ tag:
 - k8s
 ---
 
+<!-- more -->
+
 # 一、K8S 基础搭建
 
 中文社区: https://www.kubernetes.org.cn/

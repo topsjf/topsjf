@@ -7,6 +7,8 @@ tag:
 - react
 ---
 
+<!-- more -->
+
 ## 一、基础语法
 
 https://zh-hans.reactjs.org/

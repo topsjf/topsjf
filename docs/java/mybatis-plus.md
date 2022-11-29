@@ -7,6 +7,8 @@ tag:
 - mybatis-plus
 ---
 
+<!-- more -->
+
 # 整合mybatis-plus
 
 ## 1、commen引入依赖

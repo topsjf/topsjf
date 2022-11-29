@@ -7,6 +7,8 @@ tag:
 - maven
 ---
 
+<!-- more -->
+
 ## 安装与配置
 Windows、Linux 配置 Maven3.6、gradle 阿里下载源
 

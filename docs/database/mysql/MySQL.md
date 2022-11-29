@@ -7,7 +7,6 @@ tag:
 - MySQL
 ---
 
-
 <a target="_blank" href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html">数据结构在线演示</a>
 
 <a target="_blank" href="https://www.cs.usfca.edu/~galles/visualization/BST.html">二叉树在线演示</a>
@@ -17,6 +16,8 @@ tag:
 <a target="_blank" href="https://www.cs.usfca.edu/~galles/visualization/BTree.html">B树在线演示</a>
 
 <a target="_blank" href="https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html">B+树在线演示</a>
+
+<!-- more -->
 
 
 ##  1.1、SQL概述 

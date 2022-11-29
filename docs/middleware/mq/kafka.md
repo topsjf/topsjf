@@ -7,6 +7,8 @@ tag:
 - Kafka
 ---
 
+<!-- more -->
+
 # Kafka
 
 https://github.com/apache/kafka

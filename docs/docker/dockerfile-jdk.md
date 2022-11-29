@@ -8,6 +8,8 @@ tag:
 - dockerfile
 ---
 
+<!-- more -->
+
 # DockerFile 配置基于jdk
 
 ```shell

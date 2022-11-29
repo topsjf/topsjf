@@ -7,7 +7,9 @@ tag:
 - Validator
 ---
 
-# 七、JSR303校验
+<!-- more -->
+
+# JSR303校验
 
 ```Java
 * 3、JSR303

@@ -8,6 +8,8 @@ article: false
 timeline: false
 ---
 
+<!-- more -->
+
 ## MQ中间件
 
 - [active](./mq-active.md)

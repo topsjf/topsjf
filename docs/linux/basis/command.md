@@ -3,6 +3,7 @@ icon: linux
 title: Linux笔命令大全
 ---
 
+<!-- more -->
 
 ## 文件管理
 

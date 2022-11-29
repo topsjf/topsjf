@@ -7,6 +7,8 @@ tag:
 - ansible
 ---
 
+<!-- more -->
+
 
 # ansible AD-Hoc命令执行工具
 

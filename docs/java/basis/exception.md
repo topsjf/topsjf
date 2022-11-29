@@ -8,6 +8,8 @@ tag:
 ---
 
 
+<!-- more -->
+
 ## 异常定义
 
 异常处理常见手段： try catch finally throws throw

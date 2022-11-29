@@ -7,6 +7,7 @@ tag:
 - ansible
 ---
 
+<!-- more -->
 
 # ansible安装与基础概念
 

@@ -7,6 +7,7 @@ tag:
 - ansible
 ---
 
+<!-- more -->
 
 # ansible安装docker
 

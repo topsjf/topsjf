@@ -7,6 +7,8 @@ tag:
 - idea
 ---
 
+<!-- more -->
+
 ## idea插件：
 
 Alibaba Java、CamelCase、Chinese、codeGlance3、codota、GenerateAllSetter、gitee、Grep Console、mybatis-log、RestfulToolkit、Translation、vuejs、GsonFormatPlus、json parser

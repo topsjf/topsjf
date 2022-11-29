@@ -8,6 +8,8 @@ tag:
 ---
 
 
+<!-- more -->
+
 
 # Linux下安装mysql
 

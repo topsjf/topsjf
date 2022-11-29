@@ -8,9 +8,9 @@ tag:
 - k8s
 ---
 
+<!-- more -->
+
 # k8s-可视化管理工具-KubeOperator
-
-
 
 [https://kubeoperator.io/](https://kubeoperator.io/)
 

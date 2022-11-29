@@ -8,6 +8,8 @@ tag:
 - k8s
 ---
 
+<!-- more -->
+
 # k8s-nfs-pv-pvc-ConfigMap-secret
 
 ## NFS 文件系统

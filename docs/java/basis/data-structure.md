@@ -7,6 +7,8 @@ tag:
 - data-structure
 ---
 
+<!-- more -->
+
 
 ![img](./data-structure.assets/true-clip_image002.jpg)
 

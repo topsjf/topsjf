@@ -7,4 +7,6 @@ tag:
 - database-tool
 ---
 
+<!-- more -->
+
 DBeaver:开源数据库管理工具。

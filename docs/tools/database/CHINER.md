@@ -7,4 +7,6 @@ tag:
 - database-tool
 ---
 
+<!-- more -->
+
 CHINER: 干掉 PowerDesigner，这个国产数据库建模工具很强！

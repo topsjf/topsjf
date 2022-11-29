@@ -8,9 +8,9 @@ tag:
 - yum
 ---
 
+<!-- more -->
+
 # yum 源配置
-
-
 
 [https://blog.csdn.net/qq_42476834/article/details/121433712](https://blog.csdn.net/qq_42476834/article/details/121433712)
 

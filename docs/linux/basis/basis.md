@@ -9,6 +9,8 @@ tag:
 - linux
 ---
 
+<!-- more -->
+
 # linux笔记
 
 ## VMware安装

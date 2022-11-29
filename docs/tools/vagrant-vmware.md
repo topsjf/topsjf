@@ -8,6 +8,8 @@ tag:
 - vagrant_vmware
 ---
 
+<!-- more -->
+
 
 ## 一、安装 centos7.9 模板
 

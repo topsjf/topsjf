@@ -8,6 +8,8 @@ tag:
 - k8s
 ---
 
+<!-- more -->
+
 # Ingress
 
 ## Ingress 基于域名访问，不需要通过ip：port访问服务

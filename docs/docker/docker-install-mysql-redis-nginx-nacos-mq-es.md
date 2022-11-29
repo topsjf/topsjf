@@ -7,6 +7,8 @@ tag:
 - Docker
 ---
 
+<!-- more -->
+
 # [csdn 博客地址](https://blog.csdn.net/qq_42476834/article/details/112675953)
 
 # docker安装 MySQL、Redis、Nginx、nacos、es+kibana、seata

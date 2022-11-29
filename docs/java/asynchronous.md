@@ -7,6 +7,8 @@ tag:
 - 异步
 ---
 
+<!-- more -->
+
 # 1 异步 CompletableFuture
 
 ## 1.1 线程

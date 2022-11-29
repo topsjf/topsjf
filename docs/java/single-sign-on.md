@@ -7,6 +7,8 @@ tag:
 - SSO
 ---
 
+<!-- more -->
+
 # 2. 单点登录（SSO）
 
 SSO英文全称Single Sign On，单点登录。

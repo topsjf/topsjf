@@ -7,6 +7,8 @@ tag:
 - ElasticSearch
 ---
 
+<!-- more -->
+
 # ElasticSearch
 
 ![](./elastic-search.assets/true-image-20210604131952296.png)

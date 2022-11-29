@@ -8,6 +8,8 @@ tag:
 - k8s
 ---
 
+<!-- more -->
+
 # k8s-软件管理工具-Helm
 
 **Helm 是 Kubernetes 的包管理器**

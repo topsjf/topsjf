@@ -7,4 +7,6 @@ tag:
 - database-tool
 ---
 
+<!-- more -->
+
 一键生成数据库文档，堪称数据库界的Swagger

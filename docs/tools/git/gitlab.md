@@ -7,8 +7,9 @@ tag:
 - gitlab
 ---
 
-# gitlab仓库管理
+<!-- more -->
 
+# gitlab仓库管理
 
 
 [CentOS服务器上搭建Gitlab安装步骤](http://www.21yunwei.com/archives/4351)

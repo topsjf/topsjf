@@ -7,6 +7,7 @@ tag:
 - gradle
 ---
 
+<!-- more -->
 
 # gradle 使用笔记
 

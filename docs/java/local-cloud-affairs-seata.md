@@ -10,6 +10,8 @@ tag:
 - 分布式事务
 ---
 
+<!-- more -->
+
 # 分布式事物<a name="分布式事物"></a>
 
 ![image-20211004222533328](./local-cloud-affairs-seata.assets/true-image-20211004222533328.png)

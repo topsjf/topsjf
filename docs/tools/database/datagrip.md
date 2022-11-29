@@ -7,4 +7,6 @@ tag:
 - database-tool
 ---
 
+<!-- more -->
+
 IDEA官方的这个数据库管理神器真香！
