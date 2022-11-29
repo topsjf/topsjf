@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.3](https://github.com/topsjf/topsjf/compare/v3.1.2...v3.1.3) (2022-11-29)
+
+
+### 📚Docs
+
+* 文档摘要单独渲染 ([30b4657](https://github.com/topsjf/topsjf/commit/30b46576cb911dcd61a994e95eada6c7d99760fb))
+
 ## [3.1.2](https://github.com/topsjf/topsjf/compare/v3.1.1...v3.1.2) (2022-11-28)
 
 
