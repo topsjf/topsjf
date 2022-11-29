@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.6](https://github.com/topsjf/topsjf/compare/v3.1.5...v3.1.6) (2022-11-29)
+
+
+### 📚Docs
+
+* 更新测试md ([2453fc5](https://github.com/topsjf/topsjf/commit/2453fc59dce72d3860d19bc1f725ef6f27ff7b2a))
+
 ## [3.1.5](https://github.com/topsjf/topsjf/compare/v3.1.4...v3.1.5) (2022-11-29)
 
 
