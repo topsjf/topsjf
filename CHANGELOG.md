@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.0](https://github.com/topsjf/topsjf/compare/v3.1.6...v3.2.0) (2022-11-29)
+
+
+### ✨Features
+
+* 更新vuepress-theme-hope130 to 131 ([cb930c0](https://github.com/topsjf/topsjf/commit/cb930c0c955a647c0c9b5db81c17a8008fc5b585))
+
 ## [3.1.6](https://github.com/topsjf/topsjf/compare/v3.1.5...v3.1.6) (2022-11-29)
 
 
