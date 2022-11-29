@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.5](https://github.com/topsjf/topsjf/compare/v3.1.4...v3.1.5) (2022-11-29)
+
+
+### 📚Docs
+
+* 全部文章设置more摘要 ([5fcca5a](https://github.com/topsjf/topsjf/commit/5fcca5af043e15f2383897ac70fc7b86d1f6d707))
+
 ## [3.1.4](https://github.com/topsjf/topsjf/compare/v3.1.3...v3.1.4) (2022-11-29)
 
 
