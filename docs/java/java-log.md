@@ -14,8 +14,11 @@ tag:
 设置日志输出级别：系统设置级别为：
 
 > DEBUG（打印 DEBUG+INFO+WARN+ERROR 的信息）
+>
 > INFO（打印 INFO+WARN+ERROR 的信息）
+>
 > WARN（打印 WARN+ERROR 的信息）
+>
 > ERROR（打印 ERROR 的信息）
 
 ```
