@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.2](https://github.com/topsjf/topsjf/compare/v3.2.1...v3.2.2) (2022-11-30)
+
+
+### 📚Docs
+
+* 更新Java日志 ([a5e109c](https://github.com/topsjf/topsjf/commit/a5e109c07adfe673076da303573969c62b136f60))
+
 ## [3.2.1](https://github.com/topsjf/topsjf/compare/v3.2.0...v3.2.1) (2022-11-30)
 
 
