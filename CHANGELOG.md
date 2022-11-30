@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.1](https://github.com/topsjf/topsjf/compare/v3.2.0...v3.2.1) (2022-11-30)
+
+
+### 🐛Bug Fixes
+
+* add renovate.json ([412a0c2](https://github.com/topsjf/topsjf/commit/412a0c26bb936f2adb311bc0bd5b2235aa473fe5))
+
 ## [3.2.0](https://github.com/topsjf/topsjf/compare/v3.1.6...v3.2.0) (2022-11-29)
 
 
