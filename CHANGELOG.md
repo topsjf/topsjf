@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.3.0](https://github.com/topsjf/topsjf/compare/v3.2.2...v3.3.0) (2022-12-02)
+
+
+### 📚Docs
+
+* 添加zabbix文章2 ([252c5a7](https://github.com/topsjf/topsjf/commit/252c5a7382f6ecbf1d7af386f57cd3647623c120))
+
+
+### ✨Features
+
+* 更新vuepress-theme-hope131 to 132 ([57de389](https://github.com/topsjf/topsjf/commit/57de38945660b8a59dff6127f822c395c77c5385))
+
 ## [3.2.2](https://github.com/topsjf/topsjf/compare/v3.2.1...v3.2.2) (2022-11-30)
 
 
