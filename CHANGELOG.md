@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.3.2](https://github.com/topsjf/topsjf/compare/v3.3.1...v3.3.2) (2022-12-02)
+
+
+### 📚Docs
+
+* 上传zabbix笔记2图片 ([b42ff71](https://github.com/topsjf/topsjf/commit/b42ff718effc93b83e7831e5ad0c1cc6a9e44774))
+* 更新zabbix2笔记 ([8e77718](https://github.com/topsjf/topsjf/commit/8e7771831cf8a2002ad5ad9a35ed97854ff08215))
+
 ## [3.3.1](https://github.com/topsjf/topsjf/compare/v3.3.0...v3.3.1) (2022-12-02)
 
 
