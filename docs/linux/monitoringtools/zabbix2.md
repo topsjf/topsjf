@@ -1,6 +1,6 @@
 ---
 icon: edit
-title: Zabbix监控系统概述
+title: Zabbix概述篇
 category: 运维监控工具
 date: 2022-10-04
 tag:
@@ -9,54 +9,56 @@ tag:
 
 <!-- more -->
 
-# Zabbix监控系统概述
+# Zabbix概述篇
 
 
 ## zabbix 是什么？
 
-zabbix 是一个基于 Web 界面的提供分布式系统监视以及网络监视功能的企业级的开源解决方案。
-zabbix 能监视各种网络参数，保证服务器系统的安全运营；并提供灵活的通知机制以让系统管理员快速定位/解决存在的各种问题。
-zabbix 由 2 部分构成，zabbix server 与可选组件 zabbix agent。通过 C/S 模式采集数据，通过 B/S 模式在 Web 端展示和配置。
-zabbix server 可以通过 SNMP，zabbix agent，ping，端口监视等方法提供对远程服务器/网络状态的监视，数据收集等功能， 它可以运行在 Linux 等平台上。
-zabbix agent 需要安装在被监视的目标服务器上，它主要完成对硬件信息或与操作系统有关的内存，CPU 等信息的收集。
+- zabbix 是一个基于 Web 界面的提供分布式系统监视以及网络监视功能的企业级的开源解决方案。
+- zabbix 能监视各种网络参数，保证服务器系统的安全运营；并提供灵活的通知机制以让系统管理员快速定位/解决存在的各种问题。
+- zabbix 由 2 部分构成，zabbix server 与可选组件 zabbix agent。通过 C/S 模式采集数据，通过 B/S 模式在 Web 端展示和配置。
+- zabbix server 可以通过 SNMP，zabbix agent，ping，端口监视等方法提供对远程服务器/网络状态的监视，数据收集等功能， 它可以运行在 Linux 等平台上。
+- zabbix agent 需要安装在被监视的目标服务器上，它主要完成对硬件信息或与操作系统有关的内存，CPU 等信息的收集。
 
 
 ## zabbix 的主要特点
 
-安装与配置简单，学习成本低
-支持多语言（包括中文）
-免费开源
-自动发现服务器与网络设备
-分布式监视以及 WEB 集中管理功能
-可以无 agent 监视
-用户安全认证和柔软的授权方式
-通过 WEB 界面设置或查看监视结果
-email 等通知功能
+- 安装与配置简单，学习成本低
+- 支持多语言（包括中文）
+- 免费开源
+- 自动发现服务器与网络设备
+- 分布式监视以及 WEB 集中管理功能
+- 可以无 agent 监视
+- 用户安全认证和柔软的授权方式
+- 通过 WEB 界面设置或查看监视结果
+- email 等通知功能
 
 
 ## zabbix 的主要功能
 
-CPU 负荷
-内存使用
-磁盘使用
-网络状况
-端口监视
-日志监视
+- CPU 负荷
+- 内存使用
+- 磁盘使用
+- 网络状况
+- 端口监视
+- 日志监视
 
 
 ## zabbix 监控原理
 
-zabbix agent 安装在被监控的主机上，zabbix agent 负责定期收集客户端本地各项数据，并发送至 zabbix server 端，zabbix server 收到数据后，将数据存储到数据库中，用户基于 Zabbix WEB 可以看到数据在前端展现图像。当 zabbix 监控某个具体的项目， 该项目会设置一个触发器阈值，当被监控的指标超过该触发器设定的阈值，会进行一些必要的动作，动作包括：发送信息（邮件、微信、短信）、发送命令（shell 命令、reboot、restart、install 等）。
+zabbix agent 安装在被监控的主机上，zabbix agent 负责定期收集客户端本地各项数据，并发送至 zabbix server 端，zabbix server 收到数据后，
+将数据存储到数据库中，用户基于 Zabbix WEB 可以看到数据在前端展现图像。当 zabbix 监控某个具体的项目， 该项目会设置一个触发器阈值，当被监控的
+指标超过该触发器设定的阈值，会进行一些必要的动作，动作包括：发送信息（邮件、微信、短信）、发送命令（shell 命令、reboot、restart、install 等）。
 
 
 ## zabbix 常见的五个系统
 
-zabbix 监控部署在系统中，包含常见的五个程序: zabbix_server、zabbix_agent、zabbix_proxy、zabbix_get、zabbix_sender 等。
-zabbix server：zabbix 服务端守护进程，其中 zabbix_agent、zabbix_get、zabbix_sender、zabbix_proxy 的数据最终都提交给 zabbix server;
-zabbix agent：客户端守护进程，负责收集客户端数据，例如:收集 CPU 负载、内存、硬盘使用情况等;
-zabbix proxy：zabbix 分布式代理守护进程，通常大于 500 台主机，需要进行分布式监控架构部署;
-zabbix get：zabbix 数据接收工具，单独使用的命令，通常在 server 或者 proxy 端执行获取远程客户端信息的命令;
-zabbix sender：zabbix 数据发送工具，用户发送数据给 server 或 proxy 端，通常用户耗时比较长的检查。
+- zabbix 监控部署在系统中，包含常见的五个程序: `zabbix_server`、`zabbix_agent`、`zabbix_proxy`、`zabbix_get`、`zabbix_sender` 等。
+- zabbix server：zabbix 服务端守护进程，其中 `zabbix_agent、zabbix_get、zabbix_sender、zabbix_proxy` 的数据最终都提交给 `zabbix server`;
+- zabbix agent：客户端守护进程，负责收集客户端数据，例如:收集 CPU 负载、内存、硬盘使用情况等;
+- zabbix proxy：zabbix 分布式代理守护进程，通常大于 500 台主机，需要进行分布式监控架构部署;
+- zabbix get：zabbix 数据接收工具，单独使用的命令，通常在 server 或者 proxy 端执行获取远程客户端信息的命令;
+- zabbix sender：zabbix 数据发送工具，用户发送数据给 server 或 proxy 端，通常用户耗时比较长的检查。
 
 
 ## zabbix 端口号
@@ -67,9 +69,13 @@ zabbix 服务端 zabbix_server 默认使用 10051 端口。
 
 ## 安装 zabbix
 
+```shell
 zabbix-server  192.168.50.105 zabbix-server-mysql、zabbix-agent
 zabbix-agent   192.168.50.110 zabbix-agent2
+```
+
 > 部署 zabbix 服务端（端口号 10051）
+
 zabbix-server 内存至少 2G，推荐 4G。
 
 zabbix 服务端同时安装 zabbix-server-mysql 和 zabbix-agent，因为服务端所在主机自己也要被监控。
@@ -149,21 +155,65 @@ yum install -y wqy-microhei-fonts
 cp -f /usr/share/fonts/wqy-microhei/wqy-microhei.ttc /usr/share/fonts/dejavu/DejaVuSans.ttf
 ```
 
+![](./zabbix2.assets/1.webp)
 
+![](./zabbix2.assets/2.webp)
 
+![](./zabbix2.assets/3.webp)
 
+![](./zabbix2.assets/4.webp)
 
+![](./zabbix2.assets/5.webp)
 
+![](./zabbix2.assets/6.webp)
 
+![](./zabbix2.assets/7.webp)
 
+![](./zabbix2.assets/8.webp)
 
+![](./zabbix2.assets/9.webp)
 
+![](./zabbix2.assets/10.webp)
 
+![](./zabbix2.assets/11.webp)
 
+![](./zabbix2.assets/12.webp)
 
+![](./zabbix2.assets/13.webp)
 
+![](./zabbix2.assets/14.webp)
 
+![](./zabbix2.assets/15.webp)
 
+![](./zabbix2.assets/16.webp)
+
+![](./zabbix2.assets/17.webp)
+
+![](./zabbix2.assets/18.webp)
+
+![](./zabbix2.assets/19.webp)
+
+![](./zabbix2.assets/20.webp)
+
+![](./zabbix2.assets/21.webp)
+
+![](./zabbix2.assets/22.webp)
+
+![](./zabbix2.assets/23.webp)
+
+![](./zabbix2.assets/24.webp)
+
+![](./zabbix2.assets/25.webp)
+
+![](./zabbix2.assets/26.webp)
+
+![](./zabbix2.assets/27.webp)
+
+![](./zabbix2.assets/28.webp)
+
+![](./zabbix2.assets/29.webp)
+
+![](./zabbix2.assets/30.webp)
 
 
 > 部署 zabbix 客户端（端口号 10050）
@@ -222,6 +272,34 @@ zabbix_get -s '192.168.50.110' -p 10050 -k 'system.hostname'
 zbx-agent01
 ```
 
+
+![](./zabbix2.assets/31.webp)
+
+![](./zabbix2.assets/32.webp)
+
+![](./zabbix2.assets/33.webp)
+
+![](./zabbix2.assets/34.webp)
+
+![](./zabbix2.assets/35.webp)
+
+![](./zabbix2.assets/36.webp)
+
+![](./zabbix2.assets/37.webp)
+
+![](./zabbix2.assets/38.webp)
+
+![](./zabbix2.assets/39.webp)
+
+![](./zabbix2.assets/40.webp)
+
+![](./zabbix2.assets/41.webp)
+
+![](./zabbix2.assets/42.webp)
+
+![](./zabbix2.assets/43.webp)
+
+![](./zabbix2.assets/44.webp)
 
 
 
