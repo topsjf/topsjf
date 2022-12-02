@@ -26,6 +26,13 @@ export const linuxJson =
             "update-kernel",
             "jenkins",
             {
+                text: "运维监控工具",
+                icon: "tool",
+                prefix: "monitoringtools/",
+                collapsable: true,
+                children: "structure",
+            },
+            {
                 text: "ansible运维管理工具",
                 icon: "tool",
                 prefix: "ansible/",
