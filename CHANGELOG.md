@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.1](https://github.com/topsjf/topsjf/compare/v3.3.0...v3.3.1) (2022-12-02)
+
+
+### 📚Docs
+
+* 修改zabbix文章 ([a98846e](https://github.com/topsjf/topsjf/commit/a98846ef8c8fbf01a8cde04776520e3516b1a23b))
+
 ## [3.3.0](https://github.com/topsjf/topsjf/compare/v3.2.2...v3.3.0) (2022-12-02)
 
 
