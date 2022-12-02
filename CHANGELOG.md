@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.3](https://github.com/topsjf/topsjf/compare/v3.3.2...v3.3.3) (2022-12-02)
+
+
+### ⏪️Reverts
+
+* 回退vuepress-theme-hope 132 to 130 ([0d27991](https://github.com/topsjf/topsjf/commit/0d279910d2d2c0575169651b3068712e3c6c3b46))
+
 ## [3.3.2](https://github.com/topsjf/topsjf/compare/v3.3.1...v3.3.2) (2022-12-02)
 
 
