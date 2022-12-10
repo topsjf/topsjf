@@ -2,6 +2,8 @@
 home: true
 layout: Blog
 icon: home
+article: false
+timeline: false
 title: 首页
 bgImage: /heihei.gif
 #heroImage: /heihei.gif
