@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.0](https://github.com/topsjf/topsjf/compare/v3.3.3...v3.4.0) (2022-12-10)
+
+
+### ✨Features
+
+* update vuepress-theme-hope to 139,vuepress to 57 and pnpm version to 7.18.1 ([c3580a8](https://github.com/topsjf/topsjf/commit/c3580a84d8456c753606b2db6418286e9cf3954b))
+
 ## [3.3.3](https://github.com/topsjf/topsjf/compare/v3.3.2...v3.3.3) (2022-12-02)
 
 
