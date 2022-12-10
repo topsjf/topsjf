@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.1](https://github.com/topsjf/topsjf/compare/v3.4.0...v3.4.1) (2022-12-10)
+
+
+### 🐛Bug Fixes
+
+* 取消Home，快速导航是文章 ([e9fa6d3](https://github.com/topsjf/topsjf/commit/e9fa6d3442bf8801a97b85aaf580b2d7db511068))
+
 ## [3.4.0](https://github.com/topsjf/topsjf/compare/v3.3.3...v3.4.0) (2022-12-10)
 
 
