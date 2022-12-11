@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.0](https://github.com/topsjf/topsjf/compare/v3.4.1...v3.5.0) (2022-12-11)
+
+
+### ✨Features
+
+* update vuepress-theme-hope to 140, vuepress to 58 ([ce98b13](https://github.com/topsjf/topsjf/commit/ce98b13f07f2697a1798d0b57223d40eabf8dac8))
+
 ## [3.4.1](https://github.com/topsjf/topsjf/compare/v3.4.0...v3.4.1) (2022-12-10)
 
 
