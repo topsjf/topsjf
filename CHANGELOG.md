@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.1](https://github.com/topsjf/topsjf/compare/v3.5.0...v3.5.1) (2022-12-12)
+
+
+### 🐛Bug Fixes
+
+* update vuepress-theme-hope 2.0.0-beta.141 ([5b598a8](https://github.com/topsjf/topsjf/commit/5b598a8107e8b6fd809148ea85a5b77789c90435))
+
 ## [3.5.0](https://github.com/topsjf/topsjf/compare/v3.4.1...v3.5.0) (2022-12-11)
 
 
