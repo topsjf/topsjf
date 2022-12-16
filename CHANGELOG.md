@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.2](https://github.com/topsjf/topsjf/compare/v3.5.1...v3.5.2) (2022-12-16)
+
+
+### 🐛Bug Fixes
+
+* 更新主题布局设置 ([9ba7293](https://github.com/topsjf/topsjf/commit/9ba7293a7395c24e160dff4bf5e2d9c139d3cb77))
+
 ## [3.5.1](https://github.com/topsjf/topsjf/compare/v3.5.0...v3.5.1) (2022-12-12)
 
 
